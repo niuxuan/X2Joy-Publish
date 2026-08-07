@@ -9,7 +9,7 @@ Turn your phone into a motion controller — from download to play in 5 minutes.
 
 | 部件 | 说明 |
 |------|------|
-| 📱 手机 App | Android APK（[Releases](https://github.com/niuxuan/X2Joy-Publish/releases) 下载），Android 8.0+ |
+| 📱 手机 App | **iOS**：App Store 搜索 “X2Joy” 下载（上架后生效）／**Android**：APK（[Releases](https://github.com/niuxuan/X2Joy-Publish/releases) 下载），Android 8.0+ |
 | 🖥️ PC 端 | Windows 10/11 x64，`x2Joy_PC.exe` 单文件版（免安装）或框架依赖版（需 .NET 8 运行时） |
 | 🌐 网络 | 手机与 PC 在同一局域网（或可互通网络） |
 

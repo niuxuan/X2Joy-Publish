@@ -16,9 +16,13 @@
 | 版本 | 文件 | 大小 | 平台 |
 |------|------|------|------|
 | 最新版 | [⬇️ Android APK](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~65 MB | Android 8.0+ |
+| 最新版 | [🅰️ iOS（App Store）](https://apps.apple.com/app/id0000000000) | — | iOS |
 | 最新版 | [⬇️ Windows PC 端（单文件免安装）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~81 MB | Windows 10/11 x64 |
 | 最新版 | [⬇️ Windows PC 端（框架依赖版，更小）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~10 MB | 需 .NET 8 运行时 |
 | 最新版 | [🧊 3D 模型（STL/3MF）](models/) | 见清单 | 3D 打印机 |
+
+> 📝 **iOS 版预留**：App Store 审核通过后，将上方链接中的 `id0000000000` 替换为真实 App ID（格式 `https://apps.apple.com/app/id<你的AppID>`）。
+> **iOS note**: after App Store approval, replace `id0000000000` with the real App ID (`https://apps.apple.com/app/id<your-app-id>`).
 
 > 所有二进制文件托管在 **[GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases)**，点上方链接或右侧 Releases 面板下载。
 > All binaries are hosted on [GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases).
@@ -31,7 +35,7 @@ X2Joy 将你的手机变成一个**体感控制器**：手机内置 IMU 传感�
 
 X2Joy turns your phone into a **motion controller**: the built-in IMU captures gestures (swing, aim, trigger), streams over WebSocket to the PC client — turning your phone into a light gun, steering wheel, or any custom controller.
 
-- 📱 **手机端 App**：Flutter 跨平台（Android/iOS），Madgwick 姿态解算、手势识别、自定义控制布局、消息加密、扫码连接
+- 📱 **手机端 App**：Flutter 跨平台（Android 下载 / iOS App Store），Madgwick 姿态解算、手势识别、自定义控制布局、消息加密、扫码连接
 - 🖥️ **PC 端**：x2Joy_PC（WPF，Windows），WebSocket 接收 + 鼠标/设备控制
 - 🧊 **3D 模型**：枪托/握把等开源模型，可 3D 打印搭配使用
 - 🌐 官网：https://x2joy.com
@@ -89,7 +93,7 @@ X2Joy turns your phone into a **motion controller**: the built-in IMU captures g
 
 **X2Joy** turns your phone into a motion controller for games & devices. Phone IMU gestures stream over WebSocket to the PC client.
 
-- **Downloads** → [GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases)
+- **Downloads** → [GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases) · [iOS App Store](https://apps.apple.com/app/id0000000000)（上架后生效）
 - **3D Models** → [`models/`](models/) (CC BY 4.0)
 - **Docs** → [quickstart](docs/quickstart.md) · [changelog](docs/changelog.md)
 - **Website** → https://x2joy.com
