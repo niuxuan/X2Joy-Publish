@@ -15,7 +15,7 @@ if [[ "${1:-}" == "--notes" ]]; then
   NOTES="${2:?--notes 后需要说明文字}"
 fi
 
-REPO="niuxuan/X2Joy-Downloads"
+REPO="niuxuan/X2Joy-Publish"
 
 # ---------- 产物路径（按需调整） ----------
 # Android APK
