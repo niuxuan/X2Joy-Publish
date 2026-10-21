@@ -1,5 +1,7 @@
 # 更新日志 / Changelog
 
+[English](changelog.en.md)
+
 ## [Unreleased]
 
 - 仓库初始化：目录结构与文档搭建

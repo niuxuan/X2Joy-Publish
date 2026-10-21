@@ -95,6 +95,6 @@ X2Joy 将你的手机变成一个**体感控制器**：手机内置 IMU 传感�
 ### Links
 
 - Website: https://www.x2joy.com
-- Quick start: [docs/quickstart.md](docs/quickstart.md)
-- Changelog: [docs/changelog.md](docs/changelog.md)
+- Quick start: [docs/quickstart.en.md](docs/quickstart.en.md)
+- Changelog: [docs/changelog.en.md](docs/changelog.en.md)
 - Issues: [GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues)

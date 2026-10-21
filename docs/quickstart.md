@@ -3,6 +3,8 @@
 X2Joy 手机体感控制器 —— 从下载到开玩，5 分钟搞定。
 Turn your phone into a motion controller — from download to play in 5 minutes.
 
+[English](quickstart.en.md)
+
 ---
 
 ## 你需要 / You Need

@@ -2,6 +2,8 @@
 
 本目录用于存放 X2Joy 配件的 3D 打印模型。
 
+[English](README.en.md)
+
 ## 📜 授权 / License
 
 **CC BY 4.0** —— 可自由使用、修改、商用，需署名 X2Joy。
