@@ -30,15 +30,16 @@ Turn your phone into a motion controller — from download to play in 5 minutes.
 
 ## 第三步：开始体感 / Step 3: Play
 
-按 App 内手势说明操作（以 App 实际版本为准）：
+体感手势由 App 识别，具体映射到哪个键盘/手柄动作由 PC 端的“按键映射”决定，不是固定动作。
 
-| 手势 | 动作 |
+| 操作 | 说明 |
 |------|------|
-| 甩枪 / Swing | 射击 / Fire |
-| 摇枪 / Shake | 换弹 / Reload |
-| 扳机 / Trigger | 自定义按键 / Custom action |
+| 扳机 / Trigger | 按住开火；瞄准方向明显朝上、下、左、右时，会触发对应方向射击 |
+| 左挥 / 右挥 / Swing L·R | 快速向左或向右挥动手机 |
+| 抖动 / Shake | 快速上下抖动手机 |
+| 左倾 / 右倾 / Tilt L·R | 向左或向右倾斜手机 |
 
-控制布局可在 App 内自定义。
+> **自动换弹是 PC 端的开关，不是摇手机触发。** 需要换弹、切换武器等操作，请在 PC 端把对应手势映射到键盘/手柄按键。
 
 ---
 
