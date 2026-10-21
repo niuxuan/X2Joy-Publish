@@ -25,7 +25,7 @@ Turn your phone into a motion controller — from download to play in 5 minutes.
 ## 第二步：连接手机 / Step 2: Connect your phone
 
 1. 打开手机 App
-2. **扫码连接**：扫 PC 端窗口上的二维码；或手动输入地址
+2. **扫码连接**：用 App 扫描 PC 端窗口上的二维码（目前仅支持扫码连接）
 3. 看到“已连接”提示即成功
 
 ## 第三步：开始体感 / Step 3: Play
