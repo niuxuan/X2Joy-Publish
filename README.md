@@ -17,8 +17,8 @@
 |------|------|------|------|
 | 最新版 | [⬇️ Android APK](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~65 MB | Android 8.0+ |
 | 最新版 | [🅰️ iOS（App Store）](https://apps.apple.com/app/id0000000000) | — | iOS |
-| 最新版 | [⬇️ Windows PC 端（单文件免安装）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~81 MB | Windows 10/11 x64 |
-| 最新版 | [⬇️ Windows PC 端（框架依赖版，更小）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~10 MB | 需 .NET 8 运行时 |
+| 最新版 | [⬇️ Windows PC 端（单文件免安装）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | 67 MB | Windows 10/11 x64 |
+| 最新版 | [⬇️ Windows PC 端（框架依赖版，更小）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | 5 MB | 需 .NET 8 运行时 |
 | 最新版 | [🧊 3D 模型（STL/3MF）](models/) | 见清单 | 3D 打印机 |
 
 > 📝 **iOS 版预留**：App Store 审核通过后，将上方链接中的 `id0000000000` 替换为真实 App ID（格式 `https://apps.apple.com/app/id<你的AppID>`）。
