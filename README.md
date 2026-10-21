@@ -4,86 +4,66 @@
 > Turn your phone into a motion controller.
 
 [![GitHub Release](https://img.shields.io/github/v/release/niuxuan/X2Joy-Publish?style=flat-square)](https://github.com/niuxuan/X2Joy-Publish/releases/latest)
-[![License: CC BY 4.0 (Models)](https://img.shields.io/badge/Models-CC%20BY%204.0-blue.svg?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-lightgrey.svg?style=flat-square)](https://github.com/niuxuan/X2Joy-Publish/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20iOS-lightgrey.svg?style=flat-square)](https://github.com/niuxuan/X2Joy-Publish/releases)
 
 **简体中文** | [English](#english)
 
 ---
 
-## 📦 快速下载 / Quick Download
+## 📦 下载 / Download
 
-| 版本 | 文件 | 大小 | 平台 |
+| 平台 | 文件 | 大小 | 说明 |
 |------|------|------|------|
-| 最新版 | [⬇️ Android APK](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | ~65 MB | Android 8.0+ |
-| 最新版 | [🅰️ iOS（App Store）](https://apps.apple.com/app/id0000000000) | — | iOS |
-| 最新版 | [⬇️ Windows PC 端（单文件免安装）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | 67 MB | Windows 10/11 x64 |
-| 最新版 | [⬇️ Windows PC 端（框架依赖版，更小）](https://github.com/niuxuan/X2Joy-Publish/releases/latest) | 5 MB | 需 .NET 8 运行时 |
-| 最新版 | [🧊 3D 模型（STL/3MF）](models/) | 见清单 | 3D 打印机 |
+| Windows 10/11 x64 | [单文件免安装版](https://github.com/niuxuan/X2Joy-Publish/releases/latest/download/x2Joy_PC-win-x64-SCD-1.0.0.zip) | 67 MB | 推荐，无需安装 .NET 运行时 |
+| Windows 10/11 x64 | [框架依赖版](https://github.com/niuxuan/X2Joy-Publish/releases/latest/download/x2Joy_PC-win-x64-FDD-1.0.0.zip) | 5 MB | 需先安装 .NET 8 Desktop Runtime |
+| iPhone | [App Store](https://apps.apple.com/cn/app/x2joy-lightgun/id6797721135) | — | X2Joy 光枪模拟器 |
 
-> 📝 **iOS 版预留**：App Store 审核通过后，将上方链接中的 `id0000000000` 替换为真实 App ID（格式 `https://apps.apple.com/app/id<你的AppID>`）。
-> **iOS note**: after App Store approval, replace `id0000000000` with the real App ID (`https://apps.apple.com/app/id<your-app-id>`).
-
-> 所有二进制文件托管在 **[GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases)**，点上方链接或右侧 Releases 面板下载。
-> All binaries are hosted on [GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases).
-
----
+> **Windows 用户请直接选“单文件免安装版”。** 解压后双击 `x2Joy_PC.exe` 即可运行。
+> 首次运行如遇 Windows SmartScreen，点“更多信息” → “仍要运行”。
+> 所有版本和更新记录见 [Releases](https://github.com/niuxuan/X2Joy-Publish/releases)。
 
 ## 🎯 这是什么 / What is X2Joy?
 
 X2Joy 将你的手机变成一个**体感控制器**：手机内置 IMU 传感器捕捉动作（甩枪、摇枪、扳机），通过 WebSocket 实时连接 PC 端，把手机变成光枪、方向盘或任意自定义控制器。
 
-X2Joy turns your phone into a **motion controller**: the built-in IMU captures gestures (swing, aim, trigger), streams over WebSocket to the PC client — turning your phone into a light gun, steering wheel, or any custom controller.
-
-- 📱 **手机端 App**：Flutter 跨平台（Android 下载 / iOS App Store），Madgwick 姿态解算、手势识别、自定义控制布局、消息加密、扫码连接
-- 🖥️ **PC 端**：x2Joy_PC（WPF，Windows），WebSocket 接收 + 鼠标/设备控制
-- 🧊 **3D 模型**：枪托/握把等开源模型，可 3D 打印搭配使用
-- 🌐 官网：https://x2joy.com
-
----
+- 📱 **手机端**：iOS 已上架 App Store；Android 版本尚未发布
+- 🖥️ **PC 端**：Windows 10/11 x64，接收手机操作并转换为手柄/鼠标输入
+- 📡 **连接方式**：手机与电脑在同一 Wi-Fi 下扫码直连，数据不上云
+- 🌐 **官网**：https://www.x2joy.com
 
 ## 🚀 快速开始 / Quick Start
 
-1. **下载** PC 端（Windows）和手机 App（Android APK），见上方下载表
-2. **运行 PC 端** `x2Joy_PC.exe`，界面会显示连接地址（IP + 端口）
-3. **手机扫码**（App 内置扫码连接）或手动输入地址，建立 WebSocket 连接
-4. **开始体感**：按 App 内的手势说明操作（甩枪 = 射击，摇枪 = 换弹…）
+1. 下载并解压 Windows 单文件免安装版
+2. 双击 `x2Joy_PC.exe`，记下窗口显示的连接地址或二维码
+3. iPhone 从 App Store 安装 X2Joy
+4. 手机与电脑连接同一个 Wi-Fi，打开 App 扫码连接
+5. 按 App 提示完成校准，开始游戏
 
-详见 [docs/quickstart.md](docs/quickstart.md)。
+更详细的配对说明见 [docs/quickstart.md](docs/quickstart.md)。
 
----
+## 🖥️ 系统要求 / Requirements
 
-## 🧊 开源 3D 模型 / Open-Source 3D Models
-
-枪托、握把、支架等配件模型，存放在 [`models/`](models/) 目录，可直接下载打印。
-
-- 格式：STL / 3MF
-- 授权：**CC BY 4.0**（署名即可，可商用）
-- 打印参数与模型清单见 [models/README.md](models/README.md)
-
----
+- Windows 10/11 x64
+- iPhone（iOS 版本要求以 App Store 页面为准）
+- 手机与电脑处于同一局域网
+- 框架依赖版需安装 [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## 📄 文档 / Docs
 
 | 文档 | 说明 |
 |------|------|
-| [docs/quickstart.md](docs/quickstart.md) | 快速开始 / 配对指南（中英） |
+| [docs/quickstart.md](docs/quickstart.md) | 快速开始与配对指南（中英） |
 | [docs/changelog.md](docs/changelog.md) | 更新日志 |
-
----
 
 ## 🐛 反馈 / Feedback
 
-- 官网：https://x2joy.com
-- 问题 / 建议：在 [GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues) 提交
-
----
+- 官网：https://www.x2joy.com
+- 问题与建议：[GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues)
 
 ## ⚖️ 授权 / License
 
-- **3D 模型**：CC BY 4.0 —— 可自由使用、修改、商用，需署名 X2Joy
-- **程序（APK / PC 端）**：免费下载使用；源代码与再分发条款见各项目仓库
-- 商标与品牌：X2Joy 名称与 Logo 归萌芃科技所有
+- **PC 端程序**：免费下载使用
+- **商标与品牌**：X2Joy 名称与 Logo 归萌芃科技所有
 
 ---
 
@@ -91,9 +71,30 @@ X2Joy turns your phone into a **motion controller**: the built-in IMU captures g
 
 ## English
 
-**X2Joy** turns your phone into a motion controller for games & devices. Phone IMU gestures stream over WebSocket to the PC client.
+**X2Joy** turns your phone into a motion controller for games and devices. Phone IMU gestures stream over WebSocket to the PC client.
 
-- **Downloads** → [GitHub Releases](https://github.com/niuxuan/X2Joy-Publish/releases) · [iOS App Store](https://apps.apple.com/app/id0000000000)（上架后生效）
-- **3D Models** → [`models/`](models/) (CC BY 4.0)
-- **Docs** → [quickstart](docs/quickstart.md) · [changelog](docs/changelog.md)
-- **Website** → https://x2joy.com
+### Download
+
+| Platform | File | Size | Notes |
+|----------|------|------|-------|
+| Windows 10/11 x64 | [Self-contained](https://github.com/niuxuan/X2Joy-Publish/releases/latest/download/x2Joy_PC-win-x64-SCD-1.0.0.zip) | 67 MB | Recommended; no .NET runtime required |
+| Windows 10/11 x64 | [Framework-dependent](https://github.com/niuxuan/X2Joy-Publish/releases/latest/download/x2Joy_PC-win-x64-FDD-1.0.0.zip) | 5 MB | Requires .NET 8 Desktop Runtime |
+| iPhone | [App Store](https://apps.apple.com/cn/app/x2joy-lightgun/id6797721135) | — | X2Joy Light Gun |
+
+> For Windows, use the self-contained build. Unzip and run `x2Joy_PC.exe`.
+> If Windows SmartScreen appears, choose **More info** → **Run anyway**.
+
+### Quick Start
+
+1. Download and unzip the Windows build
+2. Run `x2Joy_PC.exe` and note the address or QR code
+3. Install X2Joy from the App Store on your iPhone
+4. Connect both devices to the same Wi-Fi and scan the QR code
+5. Follow the in-app calibration steps and start playing
+
+### Links
+
+- Website: https://www.x2joy.com
+- Quick start: [docs/quickstart.md](docs/quickstart.md)
+- Changelog: [docs/changelog.md](docs/changelog.md)
+- Issues: [GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues)
