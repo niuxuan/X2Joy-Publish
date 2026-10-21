@@ -71,9 +71,9 @@ X2Joy 将你的手机变成一个**体感控制器**：手机内置 IMU 传感�
 
 ## English
 
-**X2Joy** turns your phone into a motion controller for games and devices. Phone IMU gestures stream over WebSocket to the PC client.
+**X2Joy** turns your phone into a motion controller: the phone's IMU sensors capture gestures (swing, shake, trigger), stream them over WebSocket to the PC client, and turn the phone into a light gun, steering wheel, or any custom controller.
 
-### Download
+### 📦 Download
 
 | Platform | File | Size | Notes |
 |----------|------|------|-------|
@@ -81,20 +81,47 @@ X2Joy 将你的手机变成一个**体感控制器**：手机内置 IMU 传感�
 | Windows 10/11 x64 | [Framework-dependent](https://github.com/niuxuan/X2Joy-Publish/releases/latest/download/x2Joy_PC-win-x64-FDD-1.0.0.zip) | 5 MB | Requires .NET 8 Desktop Runtime |
 | iPhone | [App Store](https://apps.apple.com/cn/app/x2joy-lightgun/id6797721135) | — | X2Joy Light Gun |
 
-> For Windows, use the self-contained build. Unzip and run `x2Joy_PC.exe`.
-> If Windows SmartScreen appears, choose **More info** → **Run anyway**.
+> **Windows users should choose the self-contained build.** Unzip it and run `x2Joy_PC.exe`.
+> If Windows SmartScreen appears on first run, choose **More info** → **Run anyway**.
+> See [Releases](https://github.com/niuxuan/X2Joy-Publish/releases) for all builds and release notes.
 
-### Quick Start
+### 🎯 What is X2Joy?
 
-1. Download and unzip the Windows build
-2. Run `x2Joy_PC.exe` and note the address or QR code
+- 📱 **Phone app**: iOS is available on the App Store; Android is not released yet
+- 🖥️ **PC client**: Windows 10/11 x64, receives phone input and converts it to gamepad/mouse input
+- 📡 **Connection**: phone and PC connect directly over the same Wi-Fi; data does not go to the cloud
+- 🌐 **Website**: https://www.x2joy.com
+
+### 🚀 Quick Start
+
+1. Download and unzip the Windows self-contained build
+2. Run `x2Joy_PC.exe` and note the connection address or QR code
 3. Install X2Joy from the App Store on your iPhone
-4. Connect both devices to the same Wi-Fi and scan the QR code
+4. Connect both devices to the same Wi-Fi, open the app, and scan the QR code
 5. Follow the in-app calibration steps and start playing
 
-### Links
+For detailed pairing instructions, see [docs/quickstart.en.md](docs/quickstart.en.md).
+
+### 🖥️ Requirements
+
+- Windows 10/11 x64
+- iPhone (iOS version requirements are listed on the App Store page)
+- Phone and PC on the same local network
+- The framework-dependent build requires [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
+
+### 📄 Docs
+
+| Document | Description |
+|----------|-------------|
+| [docs/quickstart.en.md](docs/quickstart.en.md) | Quick start and pairing guide |
+| [docs/changelog.en.md](docs/changelog.en.md) | Changelog |
+
+### 🐛 Feedback
 
 - Website: https://www.x2joy.com
-- Quick start: [docs/quickstart.en.md](docs/quickstart.en.md)
-- Changelog: [docs/changelog.en.md](docs/changelog.en.md)
-- Issues: [GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues)
+- Questions and suggestions: [GitHub Issues](https://github.com/niuxuan/X2Joy-Publish/issues)
+
+### ⚖️ License
+
+- **PC client**: free to download and use
+- **Trademarks and branding**: the X2Joy name and logo belong to Mengpeng Technology
